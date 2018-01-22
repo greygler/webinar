@@ -1,0 +1,131 @@
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px !important;
+	/* padding-bottom: 105px; */
+	line-height: 1.42857 !important;
+    color: #333333 !important;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1, .navbar-brand {
+	font-size: 1.4em;
+	font-family: 'Russo One', sans-serif;
+	text-transform: uppercase;
+}
+h1 small{
+	font-family: 'Play', sans-serif;
+	text-transform: none;
+}
+h2, h3, h4, h5 {
+	font-family: 'Play', sans-serif;
+	text-transform: none;
+}
+.phone {
+	
+    padding:28px 8px 0 8px !important;
+	font-size: 18px;
+   
+}
+
+.phone:hover{
+	color: red;
+}
+.aphone{
+	color: white;
+}
+.aphone:hover{ 
+color:red;
+}
+/* .btn{
+	font-size: 18px;
+} */
+.chat {margin: 10px;}
+form legend{
+	font-family: 'Russo One', sans-serif;
+	font-size: 0.7em;
+}
+.sn{
+	margin-top:20px;
+}
+
+.chat{
+	margin-top: 10px;
+}
+
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  /* padding-top: 30px; */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+  z-index: -22;
+   
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.thumb-wrap object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+.page_form {
+    width: 70px;
+    float: right;
+}
+
+.navbar-nav>li>a {
+   text-transform: uppercase;
+}
+
+.header
+{
+	background-color: #337ab7;
+	/*  padding: 10px; */
+	 color: white;
+	 z-index: 999;
+	 font-size: 10px;
+	 position: fixed;
+  top: 0;
+  width: 100%;
+  cursor: default;
+ 
+}
+
+.footer
+{
+	background-color: #e7e7e7;
+	 margin-top: 10px;
+	 padding: 10px;
+	 color: #777;
+	 z-index: 999;
+	 font-size: 10px;
+	 position: fixed;
+  bottom: 0;
+  width: 100%;
+  cursor: default;
+}
+
+
+.footer a{
+	color: black;
+	
+}
+.footer a:hover{
+	color: blue;
+	cursor: pointer;
+}
+

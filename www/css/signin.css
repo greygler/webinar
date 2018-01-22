@@ -1,0 +1,77 @@
+body {
+font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px !important;
+	padding-bottom: 55px;
+	line-height: 1.42857 !important;
+    color: #333333 !important;
+	
+}
+h1 {
+		/* font-family: 'Russo One', sans-serif; 
+	text-shadow: -5px 5px 5px rgba(0,0,0, 0.3);
+	
+	text-transform: uppercase;  */ 
+	font-family: Arial !important; 
+	font-size: 35px  !important;
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	    
+    font-weight: bold;
+	}
+	
+	.page-header {
+	font-size: 1.4em;
+	font-family: 'Russo One', sans-serif;
+	text-transform: uppercase;
+}
+#clockdiv{
+	font-family: 'Russo One', sans-serif;
+	max-width: 75px;
+}
+.page-header small{
+	font-family: 'Play', sans-serif;
+	text-transform: none;
+}
+	
+	h2, h3, h4, h5 {
+	font-family: 'Play', sans-serif;
+	text-transform: none;
+}
+	
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  /* margin-bottom: -1px; */
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
